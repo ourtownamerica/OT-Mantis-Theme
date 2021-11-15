@@ -4,7 +4,7 @@ class OTMantisThemePlugin extends MantisPlugin {
 
   function register() {
     $this->name        = 'OT Mantis Theme';
-    $this->description = 'Our Town America theme';
+    $this->description = 'Adds Our Town colors and logo';
 
     $this->version     = '0.0.1';
     $this->requires    = array(
