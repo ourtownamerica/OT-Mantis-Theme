@@ -83,3 +83,15 @@ a, a:focus, a:hover{
 .skin-3 .nav-list > li.active::before{
 	background-color: var(--darker-yellow) !important;
 }
+
+td.bugnote-note>table th, td.bugnote-note>table td{
+    padding: .25em 1em;
+}
+
+td.bugnote-note>table th{
+	background: rgba(0, 0, 0, 0.01);
+}
+
+td.bugnote-note>table tr:nth-child(even){
+    background: rgba(0, 0, 0, 0.05)
+}

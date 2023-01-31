@@ -6,7 +6,7 @@ class OTMantisThemePlugin extends MantisPlugin {
     $this->name        = 'OT Mantis Theme';
     $this->description = 'Adds Our Town colors and logo';
 
-    $this->version     = '0.0.1';
+    $this->version     = '0.0.2';
     $this->requires    = array(
       'MantisCore'       => '2.0.0',
     );
